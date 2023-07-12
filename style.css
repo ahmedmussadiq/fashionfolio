@@ -50,7 +50,7 @@ background: var(--b1-color);
 }
 
 .bg-img img{
-    width:420px;
+    width:400px;
     height: auto;
 }
 .bg{
@@ -65,7 +65,7 @@ font-weight: 500;
    height: auto;
    font-weight: bold;
     color: var(--t-color);
-    font-size: 45px;
+    font-size: 42px;
    position: absolute;
    
   }
@@ -89,7 +89,7 @@ font-weight: bold;
     top: 29rem;
     left: 9%;
 font-weight: bold;
-   width: 40%;
+   width: 45%;
    height: auto;
    font-style: italic;
     color: var(--b3-color);
