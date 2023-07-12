@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-
+background: var(--b1-color);
     text-decoration: none;
     border: none;
     outline: none;
@@ -15,7 +15,7 @@
     --main-color: #6C757D;
     --t-color: #222222;
     --b1-color: #F7F7F7;
-    --b3-color: #898383;
+    --b3-color: #413e3e;
     --b4-color: #F7F7F7; 
 }
 
@@ -23,7 +23,7 @@
 flex-direction: column;
 width: 100%;
 height: auto;
-padding-left:1.5rem ;
+padding-left:1rem ;
 padding-top:1.5rem;
 position: sticky;
 background: var(--b1-color);
@@ -34,10 +34,10 @@ background: var(--b1-color);
 
 }
 .menu a{
-    margin-left: 2rem;
+    margin-left: 1rem;
     color: var(--t-color);
-    font-weight: 600;
-    width: 90%;
+    font-weight: bold;
+    width: 100%;
 }
 .menu a:hover ,
 .menu a.active{
@@ -45,12 +45,13 @@ background: var(--b1-color);
 }
 
 .logo a{
+   font-size:xx-large;
     font-weight: bold;
     color: var(--t-color);
 }
 
 .bg-img img{
-    width:400px;
+    width:415px;
     height: auto;
 }
 .bg{
@@ -65,7 +66,7 @@ font-weight: 500;
    height: auto;
    font-weight: bold;
     color: var(--t-color);
-    font-size: 42px;
+    font-size: 40px;
    position: absolute;
    
   }
@@ -83,7 +84,9 @@ font-weight: bold;
     font-size: 20px;
    position: absolute;
   }
-
+.main s{
+    color:var(--main-color);
+}
   .bg span3 {
   
     top: 29rem;
@@ -96,9 +99,8 @@ font-weight: bold;
     font-size: 15px;
    position: absolute;
   }
-
   .bg span5{
-    top: 33rem;
+    top: 31rem;
     left: 9%;
     padding-bottom: .5rem;
     padding-top: .5rem;
@@ -118,3 +120,146 @@ font-weight: bold;
    
 }
 
+.bg span5:hover{
+    background-color: var(--b3-color);
+    color:var(--t-color);
+    
+}
+
+.main h5 {
+    top: 55rem;
+    left:7rem;
+font-weight: bolder;
+   width: 900%;
+   
+    color: rgb(45, 43, 43);
+    font-size: 30px;
+   position: absolute;
+}
+  .main{
+    padding-top:5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:90% ;
+    height: auto;
+   
+    margin-left: 2rem;
+ 
+
+}
+.shop{
+    width: 100%;
+    background-color: var(--b1-color);
+}
+.main-img h1{
+    font-size: 20px;
+    color:#969691;
+width: 100px;
+    margin-left: 1rem;  
+}
+.main img {
+    width: 140px; /* Adjust the width of the images */
+    height: auto;
+    margin-right: 1.5rem; 
+    margin-top: 5rem;
+
+    /* Add spacing between the images */
+}
+
+.main-img h2{
+    margin-top: .5rem;
+    margin-left: .5rem;
+    font-size: 20px;
+    width: 130px;
+    
+}
+
+.contact form{
+    
+    margin:15rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.heading2 s{
+    color:var(--main-color)
+}
+.contact form .Input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.contact form .Input input,
+.contact form textarea{
+    width: 70%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--t-color);
+    background: var(--bg2-color);
+    border-radius: .8rem;
+    margin: .7rem 1rem ;
+  
+
+}
+
+
+
+.contact form .Input input{
+    width: 70%;
+    height: 7vh;
+    
+}
+
+.contact form textarea{
+height: 20vh;
+
+}
+
+.contact form textarea{
+resize: none;
+}
+
+.contact form .buton2{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.heading2{
+    
+        top: 192rem;
+        left:7rem;
+        bottom: 5rem;
+    font-weight: bolder;
+       width: 900%;
+       
+       
+        font-size: 30px;
+       position: absolute;
+   
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   justify-content: center;
+  background: var(--main-color);  
+}
+
+.footer-text p{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 3rem 0;
+
+}
+.buton4{
+   
+  
+    font-size: 25px;
+    font-weight: bold;
+}
