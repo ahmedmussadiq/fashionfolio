@@ -37,6 +37,7 @@ background: var(--b1-color);
     margin-left: 2rem;
     color: var(--t-color);
     font-weight: 600;
+    width: 90%;
 }
 .menu a:hover ,
 .menu a.active{
@@ -49,7 +50,7 @@ background: var(--b1-color);
 }
 
 .bg-img img{
-    width:500px;
+    width:450px;
     height: auto;
 }
 .bg{
@@ -71,7 +72,7 @@ font-weight: 500;
 
   .bg span1 {
   
-    top: 14.5rem;
+    top: 12.5rem;
     left: 9%;
 font-weight: bold;
    width: 35%;
@@ -85,7 +86,7 @@ font-weight: bold;
 
   .bg span3 {
   
-    top: 31rem;
+    top: 29rem;
     left: 9%;
 font-weight: bold;
    width: 40%;
@@ -97,7 +98,7 @@ font-weight: bold;
   }
 
   .bg span5{
-    top: 35rem;
+    top: 33rem;
     left: 9%;
     padding-bottom: .5rem;
     padding-top: .5rem;
@@ -106,6 +107,7 @@ font-weight: bold;
     text-align: center;
     font-weight: 600;
     font-size: 20px;
+    color: var(--bg2-color);
     border: 1.5px solid var(--main-color);
     border-radius: 20px;
   transition: .5s ease;
